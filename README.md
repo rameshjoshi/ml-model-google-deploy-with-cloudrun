@@ -10,10 +10,6 @@ You have **pretrained** tensorflow model saved in development storage, you use *
 
 
 
-
-**Cloud Build Overview** : -->
-Cloud Build, Google Cloud’s continuous integration (CI) and continuous delivery (CD) platform, lets you build software quickly across all languages. Get complete control over defining custom workflows for building, testing, and deploying across multiple environments such as VMs, serverless, Kubernetes, or Firebase.
-
 **Containerize the App and Store the Disk Image** : 
     project_id = playground-s-11-a75f0616    
     1. Invoke the Cloud Build service to create the container and store it in Container Registry    
@@ -24,6 +20,11 @@ Cloud Build, Google Cloud’s continuous integration (CI) and continuous deliver
     ![image](https://github.com/rameshjoshi/ml-model-google-deploy-with-cloudrun/assets/7277702/0875fec8-493e-4fc3-b32f-858a1b49406d)
     ![image](https://github.com/rameshjoshi/ml-model-google-deploy-with-cloudrun/assets/7277702/2d264f0c-ae53-4255-af59-5831be2636b4)
 
+
+
+
+**Cloud Build Overview** : -->
+Cloud Build, Google Cloud’s continuous integration (CI) and continuous delivery (CD) platform, lets you build software quickly across all languages. Get complete control over defining custom workflows for building, testing, and deploying across multiple environments such as VMs, serverless, Kubernetes, or Firebase.
 
 
 **Cloud Run Overview** : -->
