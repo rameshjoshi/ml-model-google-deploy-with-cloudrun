@@ -21,6 +21,16 @@ You have **pretrained** tensorflow model saved in development storage, you use *
     ![image](https://github.com/rameshjoshi/ml-model-google-deploy-with-cloudrun/assets/7277702/2d264f0c-ae53-4255-af59-5831be2636b4)
 
 
+Service URL: https://get-predictions-ysq47eq6hq-ue.a.run.app
+
+**Predict using Cloud Run endpoint**
+    import requests
+    
+    resp = requests.post("https://get-predictions-ysq47eq6hq-ue.a.run.app", files={'file': open('eight.png', 'rb')})
+    
+    print(resp.json())
+
+![image](https://github.com/rameshjoshi/ml-model-google-deploy-with-cloudrun/assets/7277702/59f2f199-1a4b-49ac-a844-ce11d96dbcd5)
 
 
 **Cloud Build Overview** : -->
