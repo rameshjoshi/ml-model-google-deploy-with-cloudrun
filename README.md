@@ -24,6 +24,8 @@ You have **pretrained** tensorflow model saved in development storage, you use *
 Service URL: https://get-predictions-ysq47eq6hq-ue.a.run.app
 
 **Predict using Cloud Run endpoint**
+ test.py
+    
     import requests
     
     resp = requests.post("https://get-predictions-ysq47eq6hq-ue.a.run.app", files={'file': open('eight.png', 'rb')})
